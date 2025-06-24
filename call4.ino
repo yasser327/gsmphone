@@ -54,7 +54,7 @@ void loop(){
         Serial.println("calling");
         lcd.setCursor(1, 1);
         lcd.print("The creator");
-        Serial.println("ATD+213795222145;");
+        Serial.println("ATD+num1;");
         delay(3000);
 
         break;
@@ -62,9 +62,9 @@ void loop(){
         lcd.setCursor(0, 0);
         Serial.println("calling");
         lcd.setCursor(1, 1);
-        lcd.print("Zino");
-        Serial.println("ATD+213770168162;");
-        sim800l.println("ATD+213770168162;");
+        lcd.print("nm2");
+        Serial.println("ATD+num2;");
+        sim800l.println("ATD+num2;");
         
         Serial.print(key);
         delay(3000);
@@ -74,8 +74,8 @@ void loop(){
         lcd.setCursor(0, 0);
         lcd.print("calling");
         lcd.setCursor(1, 1);
-        lcd.print("Islam");
-        sim800l.println("ATD+213674340129;");
+        lcd.print("num3");
+        sim800l.println("ATD+num3");
         
         delay(3000);
 
@@ -84,9 +84,9 @@ void loop(){
         lcd.setCursor(0, 0);
         lcd.print("calling..");
         lcd.setCursor(1, 1);
-        lcd.print("Midou");
-        Serial.println("ATD+ +213783103417;");
-        sim800l.println("ATD+213783103417;");
+        lcd.print("num4");
+        Serial.println("ATD+num4");
+        sim800l.println("ATD+num4;");
         
         delay(3000);
 
@@ -96,9 +96,9 @@ void loop(){
         lcd.setCursor(0, 0);
         lcd.print("calling..");
         lcd.setCursor(1, 1);
-        lcd.print("lokman");
-        Serial.println("ATD+213698452076;");
-        sim800l.println("ATD+213698452076;");
+        lcd.print("num5");
+        Serial.println("ATD+num5;");
+        sim800l.println("ATD+num5;");
         
         delay(3000);
        break;
@@ -107,9 +107,9 @@ void loop(){
         lcd.setCursor(0, 0);
         lcd.print("calling..");
         lcd.setCursor(1, 1);
-        lcd.print("Aziizz");
-        Serial.println("ATD+213660904333;");
-        sim800l.println("ATD+213660904333;");
+        lcd.print("num");
+        Serial.println("ATD+num6;");
+        sim800l.println("ATD+num6");
         
         delay(3000);
        break;
@@ -118,9 +118,9 @@ void loop(){
         lcd.setCursor(0, 0);
         lcd.print("calling..");
         lcd.setCursor(1, 1);
-        lcd.print("Adel");
-        Serial.println("ATD+213696397228;");
-        sim800l.println("ATD+213696397228;");
+        lcd.print("num");
+        Serial.println("ATD+num7;");
+        sim800l.println("ATD+num7;");
         
         delay(3000);
        break;
